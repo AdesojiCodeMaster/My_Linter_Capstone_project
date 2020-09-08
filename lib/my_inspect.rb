@@ -19,3 +19,4 @@ class Inspector
     @flaw_point.uniq
   end
 end
+
