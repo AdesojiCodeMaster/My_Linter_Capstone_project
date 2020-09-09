@@ -1,13 +1,13 @@
 # My_Linter_Capstone_Project
 Building Custom Linter.
 
-This custom Linter is built to be able to check for errors in codes/files with specificities for checking brackets/parenthesis, curly braces, and square brackets errors to determine whether they are correctly closed.
+This custom Linter is built to be able to check for errors in codes within files with specificities for checking brackets/parenthesis, curly braces, and square brackets errors to determine whether they are correctly closed.
 ## Good code with its linter message.
 ![screenshot](assets/img/Screenshot_goodcode.png)
 ![screenshot](assets/img/Screenshot_goodmsg.png) 
 ## Poorly written code with the error message using this custom linter.
 ![screenshot](assets/img/Screenshot_badcode.png)
-![screenshot](assets/img/Screenshot_goodmsg.png)
+![screenshot](assets/img/Screenshot_badmsg.png)
 ## Built With
 - Ruby
 ### technology/gem used
