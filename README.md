@@ -22,13 +22,17 @@ This custom Linter is built to be able to check for errors in codes within files
 - Ensure required colorize and rubocop gems are installed.
 ### Run Test
 Follow these steps on your computer terminal:
-- After cloning the Repository, change directory to the project folder by running  ``` cd My_Linter_Capstone_project ```
+- After cloning the Repository, change directory to the project folder by running  ``` cd My_Linter_Capstone_project ``` ( take note of the location of this project on your own machine)
 - On project directory then run  ``` gem install colorize ```
-- Then change to bin directoty by running ``` cd bin ```
-- Run the program by typing ``` ruby main.rb ../test/test.rb ``` 
--  Ensure the file under testing is a ruby file with the .rb extension
+- Then change to the bin folder/directory by running ``` cd bin ```
+- Run the program by typing ``` ruby main.rb ../test/test.rb ``` into your CLI and press ENTER key (This is to test run how this custom linter is working with test.rb file on this project that contains lines of codes for demonstration )
+
 ### Basic instructions on how to use this linter.
- Run this custom linter basically by running ``` ruby main.rb ../test/test.rb ```.The test.rb ruby is the file to test (Do not forget to use the file relative path with preceding '../' after main.rb).
+ To use this custom linter; 
+ 1. Navigate to project folder by running ```cd My_Linter_Capstone_project ``` on the CLI.
+ 2. When you get to the project folder ```then run gem install colorize  ```(to add color to the output message(s)).
+ 3. Then run ``` cd bin ``` to navigate to bin folder.
+ 4. On the bin folder type ** ruby main.rb ../file_to_be_tested.rb ** and press ENTER key. The ** file_to_be_tested.rb ** is the ** file's relative path ** (Do not forget to use the file relative path with preceding '../' after ** ruby main.rb ** in this format: ``` ruby main.rb ../file_relative_path ```). It is important that the file to be tested should have .rb extension.
 ## Author
 👤 Adesoji Adewumi
 - Github: [@AdesojiCodeMaster](https://github.com/AdesojiCodeMaster)
