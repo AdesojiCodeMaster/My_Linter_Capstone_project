@@ -11,7 +11,7 @@ describe Inspector do
     it 'returns an array with point where flaw occurred' do
       expect(test_file.inspect_file(/\[/, /\]/).class).to eql(Array)
     end
-    it 'returns error when no argument is given' do
+    it 'raises error when no argument is given' do
         expect{test_file.inspect_file}.to raise_error(ArgumentError)
       end
   end
