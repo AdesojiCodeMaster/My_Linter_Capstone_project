@@ -3,6 +3,12 @@ class Inspector
     @inputfile = inputfile
   end
 
+  def checker(alpha, omega)
+    inspect_file(alpha, omega)
+  end
+
+  private
+
   def inspect_file(first, last) # rubocop:disable Metrics/CyclomaticComplexity
     flaw_point = []
 

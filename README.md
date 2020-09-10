@@ -46,7 +46,7 @@ $ gem install bundler
 ~~~bash
 $ gem install rspec 
 ~~~
-I used ```rspec.``` to test the code. After installing the rspec gem, to start testing run ```cd My_Linter_Capstone_project``` to navigate to project folder on the CLI. Then type `rspec` on your terminal and press ENTER key.
+I used ```rspec.``` to test the code. After installing the ```rspec gem ```, to start testing run ```cd My_Linter_Capstone_project``` to navigate to project folder on the CLI. Then type `rspec` on your terminal and press ENTER key.
 ## Author
 👤 Adesoji Adewumi
 - Github: [@AdesojiCodeMaster](https://github.com/AdesojiCodeMaster)
