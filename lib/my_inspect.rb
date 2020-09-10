@@ -1,6 +1,8 @@
 class Inspector
+  attr_reader :inputfile
   def initialize(inputfile)
     @inputfile = inputfile
+    @file = File.open(@inputfile)
   end
 
   def checker(alpha, omega)
