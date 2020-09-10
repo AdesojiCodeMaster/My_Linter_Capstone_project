@@ -33,6 +33,20 @@ Follow these steps on your computer terminal:
  2. When you get to the project folder ```then run gem install colorize  ```(to add color to the output message(s)).
  3. Then run ``` cd bin ``` to navigate to bin folder.
  4. On the bin folder type ``` ruby main.rb ../file_to_be_tested.rb ``` and press ENTER key. The ``` file_to_be_tested.rb ``` is the ``` file's relative path ``` (Do not forget to use the file relative path with preceding '../' after ``` ruby main.rb ``` in this format: ``` ruby main.rb ../file_relative_path ```). It is important that the file to be tested should have .rb extension.
+ ## Testing
+ > To install the gem file, run;
+~~~bash
+$ bundle install 
+~~~
+> Ensure **bundler** is already installed on your system, else run
+~~~bash
+$ gem install bundler 
+~~~
+> or you can simply install it directly using 
+~~~bash
+$ gem install rspec 
+~~~
+I used ```rspec.``` to test the code. After installing the rspec gem, to start testing run ```cd My_Linter_Capstone_project``` to navigate to project folder on the CLI. Then type `rspec` on your terminal and press ENTER key.
 ## Author
 👤 Adesoji Adewumi
 - Github: [@AdesojiCodeMaster](https://github.com/AdesojiCodeMaster)
