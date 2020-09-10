@@ -32,7 +32,7 @@ Follow these steps on your computer terminal:
  1. Navigate to project folder by running ```cd My_Linter_Capstone_project ``` on the CLI.
  2. When you get to the project folder ```then run gem install colorize  ```(to add color to the output message(s)).
  3. Then run ``` cd bin ``` to navigate to bin folder.
- 4. On the bin folder type ** ruby main.rb ../file_to_be_tested.rb ** and press ENTER key. The ** file_to_be_tested.rb ** is the ** file's relative path ** (Do not forget to use the file relative path with preceding '../' after ** ruby main.rb ** in this format: ``` ruby main.rb ../file_relative_path ```). It is important that the file to be tested should have .rb extension.
+ 4. On the bin folder type ``` ruby main.rb ../file_to_be_tested.rb ``` and press ENTER key. The ``` file_to_be_tested.rb ``` is the ``` file's relative path ``` (Do not forget to use the file relative path with preceding '../' after ``` ruby main.rb ``` in this format: ``` ruby main.rb ../file_relative_path ```). It is important that the file to be tested should have .rb extension.
 ## Author
 👤 Adesoji Adewumi
 - Github: [@AdesojiCodeMaster](https://github.com/AdesojiCodeMaster)
