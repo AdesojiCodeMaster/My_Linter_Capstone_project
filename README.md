@@ -50,7 +50,7 @@ I used ```rspec.``` to test the code. After installing the ```rspec gem ```, to 
 ## Author
 👤 Adesoji Adewumi
 - Github: [@AdesojiCodeMaster](https://github.com/AdesojiCodeMaster)
-- Linkedin: [@adesoji-adewumi-7752aba5/](https://www.linkedin.com/in/adesoji-adewumi)
+- Linkedin: [@adesoji-adewumi](https://www.linkedin.com/in/adesoji-adewumi)
 - Twitter: [@codemas22665735(https://twitter.com/codemas22665735)]
 
 ## 🤝 Contributing
